@@ -1,23 +1,21 @@
 import React from 'react';
 import {
-    Route,
-    Link
+    Route
   } from 'react-router-dom';
 
 import SideMenuBar from './components/sideMenuBar/SideMenuBar';
+import Header from './components/Header/Header';
 import './App.css';
 
   
   const App = () => (
    
       <div className="container-fluid">
-        <ul>
-          <li><Link to="/">Home</Link></li>
-        </ul>
-  
-        <hr/>
+        <div className="row">
 
-        <Route path="/" component={SideMenuBar}/>
+            <Route path="/" component={SideMenuBar}/>
+            <Header />
+        </div>
       </div>
   )
   

@@ -1,0 +1,13 @@
+.sideMenuBar{
+    background-color: #3d126b;
+}
+
+.sideMenuBar li{
+    list-style-type: none;
+    padding: 11px 5px;
+}
+
+.sideMenuBar a{
+    color: #fff;
+    text-decoration: none;
+}
