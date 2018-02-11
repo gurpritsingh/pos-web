@@ -3,8 +3,9 @@ import {
     Route
   } from 'react-router-dom';
 
-import SideMenuBar from './components/sideMenuBar/SideMenuBar';
-import Header from './components/Header/Header';
+import SideMenuBar from './components/Dashboard/sideMenuBar/SideMenuBar';
+import Header from './components/Dashboard/Header/Header';
+import DashboardContainer from './components/Dashboard/DashboardContainer/DashboardContainer';
 import './App.css';
 
   
@@ -14,7 +15,10 @@ import './App.css';
         <div className="row">
 
             <Route path="/" component={SideMenuBar}/>
-            <Header />
+            <div className="col">
+                <Header />
+                <DashboardContainer />
+            </div>
         </div>
       </div>
   )
