@@ -17,7 +17,7 @@ import './App.css';
             <Route path="/" component={SideMenuBar}/>
             <div className="col">
                 <Header />
-                <DashboardContainer />
+                <Route exact path="/:pathName" component={DashboardContainer} />
             </div>
         </div>
       </div>

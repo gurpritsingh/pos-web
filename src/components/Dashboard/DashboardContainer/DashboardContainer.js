@@ -1,9 +1,9 @@
 import React from 'react';
 
-var DashboardContainer = (props) => {
+var DashboardContainer = ({ match }) => {
     return (
         <div className="col">
-            <h1>Dashboard container</h1>
+            <h1>{match.params.pathName}</h1>
         </div>
     )
 }

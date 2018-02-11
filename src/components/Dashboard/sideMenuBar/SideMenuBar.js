@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
 import './sideMenuBar.css';
 
@@ -6,8 +6,8 @@ var SideMenuList = (props) => {
     return props.list.map((link)=> <li key={link.pathName}><Link to={link.path}>{link.pathName}</Link></li>);
 }   
 
-class SideMenuBar extends Component {
-    list=[
+var SideMenuBar = ({match}) => {
+  let list=[
         {
             pathName: 'Home',
             path: '/'
@@ -32,14 +32,13 @@ class SideMenuBar extends Component {
             pathName: 'Sales',
             path: '/sales'
         }
-    ]
-    render(){
-        return (
-            <div className="sideMenuBar col-lg-3">
-                <SideMenuList list={this.list} />
-            </div>
-        )
-    }
+    ]   
+
+    return (
+        <div className="sideMenuBar col-lg-3">
+            <SideMenuList list={list} />
+        </div>
+    )
 }
 
 
