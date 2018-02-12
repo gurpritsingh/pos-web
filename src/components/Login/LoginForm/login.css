@@ -1,0 +1,56 @@
+
+.back_login {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.login_form {
+    width: 50%;
+    float: left;
+}
+
+.login_form_wrapper {
+    padding: 20% 15%;
+}
+
+.login_form_wrapper h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #332054;
+    letter-spacing: 7px;
+    margin-bottom: 5px;
+}
+
+.login_form_wrapper h6 {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #A6A6AD;
+    margin-top: 5px;
+}
+
+.login_form_wrapper .forgot_link {
+    line-height: 1.5;
+}
+
+.btn_group {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.btn_group button {
+    padding: 10px 40px;
+    border: 1px solid #332054;
+    background: transparent;
+    border-radius: 10px;
+    ;
+}
+
+.btn_group button:hover {
+    background: #332054;
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+}

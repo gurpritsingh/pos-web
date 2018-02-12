@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .column {
+        flex: 1;
+    }
+    ._12 {
+        flex: 1.2;
+    }
+    ._15 {
+        flex: 1.5;
+    }
+    ._25 {
+        flex: 2.5;
+    }
+    ._3 {
+        flex: 3;
+    }
+    ._4 {
+        flex: 4;
+    }
+    ._5 {
+        flex: 5;
+    }
+    ._55 {
+        flex: 5.5;
+    }
+    ._6 {
+        flex: 6;
+    }
+    ._7 {
+        flex: 7;
+    }
+    ._75 {
+        flex: 7.5;
+    }
+    ._8 {
+        flex: 8;
+    }
+    ._85 {
+        flex: 8.5;
+    }
+    ._9 {
+        flex: 9;
+    }
+    ._95 {
+        flex: 9.5;
+    }
+}
+
+@media (max-width: 768px) {
+    /*login*/
+    .back_login {
+        display: none;
+    }
+    .login_form {
+        width: auto
+    }
+    .forgot_box{
+        text-align: center;
+    }
+    .forgot_link{
+       float: none !important;
+    }
+    .btn_group button {
+        margin-bottom: 4%;
+        margin-top: 2%;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .left-container {
+        width: 0px;
+        display: none;
+    }
+    .left-container.open {
+        width: 200px;
+        display: block;
+    }
+    .right-container {
+        margin-left: 0px;
+    }
+    .left-container.open+.right-container {
+        margin-left: 200px;
+    }
+    .hide-btn {
+        display: none;
+    }
+    .show-btn {
+        display: flex;
+    }
+    .show-btn .SearchBox-submitBtn {
+        flex: 1 0 auto;
+    }
+    .show-btn .sub_menu.open {
+        top: 89px;
+        right: 41%;
+    }
+}
