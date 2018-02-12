@@ -9,7 +9,7 @@ var LoginForm = () => {
       
       return (
           <div>
-                <div class="back_login" style="{componentStyles}">
+                <div class="back_login" style={componentStyles}>
                     
                 </div>
                 <div class="login_form">
