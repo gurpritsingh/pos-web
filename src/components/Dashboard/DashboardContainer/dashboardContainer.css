@@ -1,0 +1,44 @@
+.dashboardContainer{
+    min-height: 90vh;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+.box{
+    background: #fff;
+    padding: 5%; 
+    box-shadow: 1px 1px #ccc;
+}
+.box.tag svg{
+    font-size: 4rem;
+    float: left;
+}
+.box.tag span{
+    float: right;
+    line-height: 5;
+    font-weight: bold;
+}
+.tagTitle{
+    font-size: 0.7rem;
+    display: block;
+    color: #ccc;
+    text-transform: capitalize;
+}
+
+.tagAmount{
+font-size: 1.2rem;
+display: block;
+padding: 15px 1%;
+}
+.tagAmount svg{
+    font-size: 1rem;    
+}   
+.tagPerc{
+    color: red;
+    display: block;
+}
+.tagPerc svg{
+    font-size: 0.7rem;    
+}
+.tagPercVal{
+    font-size: 0.7rem;
+}

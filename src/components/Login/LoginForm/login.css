@@ -1,8 +1,12 @@
 
 .back_login {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
     width: 50%;
     height: 100%;
     float: left;
+    height: 100vh;
 }
 
 .login_form {

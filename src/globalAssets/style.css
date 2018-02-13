@@ -41,7 +41,9 @@
 .clearfix:after {
     clear: both;
 }
-
+h4{
+    font-size: 1.5rem;
+}
 .block-center {
     margin: 0 auto;
     text-align: center;
@@ -419,13 +421,13 @@ ul.menu li.header {
     font-size: 1.1rem;
 }
 
-ul.menu li a i {
+ul.menu li a .svg-inline--fa {
     margin-right: 10px;
     color: #A69DBE;
 }
 
-ul.menu li.active a i,
-ul.menu li:hover a i {
+ul.menu li.active a .svg-inline--fa,
+ul.menu li:hover a .svg-inline--fa {
     color: #9474D9;
 }
 
@@ -434,7 +436,7 @@ ul.menu li:hover a i {
     padding: 12px;
 }
 
-.top_box i {
+.top_box .svg-inline--fa{
     color: #BFBCCD;
     font-size: 1.1rem;
 }
